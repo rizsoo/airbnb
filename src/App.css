@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+
+#breaking-news {
+  margin: 10px 0;
+  width: 100vw;
+  height: 300px;
+  background-image: url("/src/img/covid_travel.webp");
+  background-size: cover;
+  background-position-x: center;
+
+  position: relative;
+  z-index: -1;
+}
+#breaking-news h4 {
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+
+  position: absolute;
+  bottom: 0;
+
+  cursor: pointer;
+}
+#breaking-news:hover #news-title {
+  text-decoration: underline;
+}

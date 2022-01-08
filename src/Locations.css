@@ -1,0 +1,126 @@
+.locations {
+  width: calc(100vw - 30px);
+  max-width: 500px;
+  min-height: 85px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  margin: 15px;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.locations-section {
+  display: flex;
+}
+@media (max-width: 316px) {
+  .locations,
+  .locations-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.locations h3 {
+  background-color: white;
+  padding: 0px 10px 5px 10px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  word-break: break-word;
+}
+
+.locations img {
+  height: 85px;
+  width: 85px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.locations p {
+  padding: 0 10px;
+  line-height: 20px;
+  font-size: 13px;
+  color: grey;
+  margin: 0;
+}
+.locations button {
+  border-radius: 10px;
+  height: 33px;
+  font-weight: bold;
+  background-color: rgb(241, 241, 241);
+  color: rgb(0, 157, 255);
+  border: unset;
+  padding: 0px 12px;
+  outline: unset;
+}
+.locations-popups {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: calc(100vw - 30px);
+  height: calc(100vh - 30px);
+  max-width: 500px;
+
+  padding: 15px;
+  background-color: white;
+  /* outline: solid 1000px rgba(0, 0, 0, 0.4); */
+
+  overflow-y: scroll;
+  border-radius: 20px;
+  scrollbar-width: none; /* Firefox */
+}
+.locations-popups::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.popup-shader {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.4;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+}
+.locations-popups h4 {
+  background-color: white;
+  padding: 0px 0px 5px 0px;
+  margin-top: 15px;
+  margin-bottom: 0;
+
+  font-weight: bold;
+  word-break: break-word;
+}
+.locations-popups p {
+  padding: 0;
+}
+.locations-popups ion-icon {
+  font-size: 40px;
+  --ionicon-stroke-width: 25px;
+  cursor: pointer;
+}
+.bestof {
+  margin: 8px 0px;
+  padding: 3px;
+  font-size: 14px;
+  background-color: rgb(255, 227, 67);
+  width: fit-content;
+  border-radius: 9px;
+  border: solid 3px rgb(255, 196, 35);
+}
+.locations-popups img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 15px 0;
+}

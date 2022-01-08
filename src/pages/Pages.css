@@ -1,0 +1,104 @@
+.content {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 1024px;
+  width: 100vw;
+}
+.page-title {
+  background-color: rgb(255, 235, 238);
+  padding: 10px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.checkout-background {
+  width: 100vw;
+  height: auto;
+}
+.checkout-background img {
+  width: 100vw;
+  max-width: 1024px;
+  height: calc(100vh - 80px);
+  object-fit: cover;
+}
+.checkout-steps {
+  position: absolute;
+  bottom: 0;
+
+  background-color: white;
+
+  padding: 20px 10px;
+  margin: 0;
+
+  height: 100px;
+  width: 100vw;
+  max-width: 1024px;
+}
+.arrows {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.prev-arrow {
+  left: 10px;
+}
+.next-arrow {
+  right: 10px;
+}
+.arrows ion-icon {
+  font-size: 60px;
+  color: #f35356;
+}
+.foodandculture input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  margin: 10px 15px 0 15px;
+
+  border-radius: 10px;
+  outline: none;
+  border: solid 1px grey;
+}
+.filtering {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px 15px;
+  cursor: pointer;
+}
+.filtering h6 {
+  padding: 5px;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+}
+.highlight {
+  background-color: cadetblue;
+  color: white;
+}
+.sorry {
+  margin: 15px;
+  padding: 5px;
+}
+/* GUIDES page */
+.guides-page-content {
+  width: 100vw;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Airbnb Cereal App", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+.content {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 1024px;
+  width: 100vw;
+}
+.page-title {
+  background-color: rgb(255, 235, 238);
+  padding: 10px;
+  font-weight: bold;
+  margin: 15px;
+}

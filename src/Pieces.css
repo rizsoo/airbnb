@@ -1,0 +1,37 @@
+.piece-content {
+  width: calc(100vw - 30px);
+  height: auto;
+  min-height: 85px;
+
+  margin: 15px;
+  padding: 10px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+}
+.piece-textarea {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.piece-textarea h4 {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0;
+}
+.piece-textarea p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: #1996c3;
+}
+.piece-content img {
+  height: 75px;
+  width: auto;
+  margin-right: 5px;
+}

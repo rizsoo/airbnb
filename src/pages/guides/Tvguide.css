@@ -1,0 +1,32 @@
+.no-connection {
+  width: calc(100vw - 30px);
+  max-width: 500px;
+  margin: 15px;
+  padding: 20px;
+
+  background-color: #f5faff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media (min-width: 550px) {
+  .no-connection {
+    display: flex;
+    flex-direction: column;
+  }
+  .no-connection img {
+    max-height: 150px;
+  }
+  .no-connection-text {
+    display: flex;
+  }
+}
+.no-connection h4 {
+  font-weight: bold;
+}
+.no-connection p {
+  font-size: 14px;
+}
+@media (max-width: 549px) {
+  .no-connection img {
+    width: 100%;
+  }
+}
