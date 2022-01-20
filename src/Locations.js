@@ -4,6 +4,14 @@ import { Map, Marker, GoogleApiWrapper } from 'google-maps-react'
 
 function Locations(props) {
   const [showPopup, setShowPopup] = useState(false);
+
+  const stopBodyScroll = function(){
+    document.body.style.overflow = "hidden";
+  }
+  const unstopBodyScroll = function(){
+    document.body.style.overflow = "auto";
+  }
+
   const isBestOf = props.bestof ? true : null;
   return (
     <div className="locations">
@@ -19,13 +27,13 @@ function Locations(props) {
           </div>
       </div>
       {showPopup?<div className='popup-shader' onClick={() => setShowPopup(false)}></div>:null}
-      <button onClick={() => setShowPopup(true)}>More</button>
+      <button onClick={() => setShowPopup(true) + stopBodyScroll()}>More</button>
       {
           showPopup?
       <div className='locations-popups'>
         <div className='popup-header'>
           <h4>{props.title}</h4>
-          <ion-icon onClick={() => setShowPopup(false)} name="close-circle-outline"></ion-icon>
+          <ion-icon onClick={() => setShowPopup(false) + unstopBodyScroll()} name="close-circle-outline"></ion-icon>
         </div>
         <p>{props.hashtags.split(' ').map(tag => {
                 return (

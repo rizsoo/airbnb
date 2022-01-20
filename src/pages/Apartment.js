@@ -4,13 +4,15 @@ import machineGuide from "../img/washing_machine_2.webp"
 import checkout from "../img/checking_out.webp"
 import parking from "../img/parking.jpg"
 import contact from "../img/contact.webp"
+import { useTranslation } from "react-i18next";
 
 function Apartment () {
+    const { t } = useTranslation();
     return (
         <div className="apartment">
             <Header />
             <div className="content">
-                <h3 className="page-title">Apartment</h3>
+                <h3 className="page-title">{t("apartment")}</h3>
             <Menu 
                 title="Contact" 
                 image={contact}

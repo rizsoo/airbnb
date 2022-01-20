@@ -2,13 +2,16 @@ import './Header.css';
 import {useState, useRef} from 'react'
 import { Link } from 'react-router-dom';
 import Navbar from './pages/Navbar';
+import LanguageSelector from './pages/LanguageSelector';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const parentRef = useRef();
+    
 
     return (
         <div className="header">
+            <LanguageSelector />
             <div className="header-content">
                 <h1><Link to="/">Airbnb of Kris</Link></h1>
                 <ion-icon onClick={() => setIsOpen(!isOpen)} className={isOpen ? "arrow" : null} name={isOpen ? "close-circle-outline" : "chevron-down-circle-outline"}></ion-icon>

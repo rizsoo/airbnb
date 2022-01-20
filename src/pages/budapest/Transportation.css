@@ -1,0 +1,98 @@
+.transport-box {
+  width: calc(100vw - 30px);
+  max-width: 1000px;
+  height: 250px;
+
+  margin: 15px;
+  /* padding: 10px; */
+  border-radius: 15px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  cursor: pointer;
+  overflow: hidden;
+
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.transport-box h4 {
+  font-weight: bold;
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.849);
+  padding: 10px;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  transition: all ease-in-out 0.2s;
+}
+@media (min-width: 650px) {
+  .transport-box h4 {
+    opacity: 0;
+  }
+}
+
+.transport-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all ease-in-out 0.2s;
+
+  position: relative;
+  z-index: -1;
+}
+.transport-box:hover > img {
+  filter: blur(2px);
+}
+.transport-box:hover > h4 {
+  opacity: 1;
+}
+.public-transport {
+  height: 400px;
+}
+.transport-popup {
+  background-color: white;
+  width: calc(100vw - 30px);
+  height: calc(100vh - 30px);
+
+  max-width: 1000px;
+
+  padding: 15px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+
+  border-radius: 15px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.transport-popup ion-icon {
+  font-size: 35px;
+  --ionicon-stroke-width: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.bkk-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.public-transport-content p {
+  font-size: 15px;
+}

@@ -6,7 +6,10 @@ import wifiImg from "../img/info/wifi.png"
 import entrancecodeImg from "../img/info/entrance_code.png"
 import emergencyImg from "../img/info/emergency.png"
 
+import { useTranslation } from "react-i18next";
+
 function Info () {
+    const { t } = useTranslation();
     return (
         <div className="info">
             <Header />
@@ -15,7 +18,7 @@ function Info () {
             </div>
             <Pieces 
                 img={addressImg}
-                title="Address of apartment"
+                title={t("address_of_apartment")}
                 description="1137 Budapest, Katona József utca 10/b"
                 link="https://goo.gl/maps/JUpNohKw8Dcu4rFf9"
             />

@@ -6,20 +6,28 @@ import reportWebVitals from './reportWebVitals';
 import Apartment from './pages/Apartment';
 import Budapest from './pages/Budapest';
 import Info from './pages/Info';
-import Checkout from './pages/Checkout';
+import Checkout from './pages/apartment/Checkout';
 import {
   Routes,
   Route,
   BrowserRouter
 } from 'react-router-dom';
-import Guides from './pages/Guides';
-import Parking from './pages/Parking';
-import FoodandCulture from './pages/FoodandCulture';
-import Tvguide from './pages/guides/Tvguide';
-import Cafeguide from './pages/guides/Cafeguide';
-import Transportation from './pages/Transportation';
+import Guides from './pages/apartment/Guides';
+import Parking from './pages/apartment/Parking';
+import FoodandCulture from './pages/budapest/FoodandCulture';
+import Tvguide from './pages/apartment/guides/Tvguide';
+import Cafeguide from './pages/apartment/guides/Cafeguide';
+import Transportation from './pages/budapest/Transportation';
+import { Suspense } from 'react';
+
+const loadingMarkup = (
+  <div>
+    <h2>Loading...</h2>
+  </div>
+)
 
 ReactDOM.render(
+  <Suspense fallback={loadingMarkup}>
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />}/>
@@ -34,7 +42,8 @@ ReactDOM.render(
       <Route path='/cafeguide' element={<Cafeguide />} />
       <Route path='/public-transport' element={<Transportation />} />
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
+  </Suspense>,
   document.getElementById('root')
 );
 

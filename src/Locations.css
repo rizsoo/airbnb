@@ -73,6 +73,8 @@
   overflow-y: scroll;
   border-radius: 20px;
   scrollbar-width: none; /* Firefox */
+
+  z-index: 200;
 }
 .locations-popups::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
@@ -87,6 +89,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 190;
 }
 .popup-header {
   display: flex;
