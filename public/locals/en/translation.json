@@ -1,5 +1,33 @@
 {
     "covid_situation": "Current COVID restrictions in Hungary",
+
     "apartment": "Apartment",
-    "address_of_apartment": "Address of apartment"
+    "read": "Read",
+
+    "address_of_apartment": "Address of apartment",
+    "phone_number": "My phone number",
+    "wifi_password": "Wifi password",
+    "entrance_code": "Entrance code",
+    "emergency_services": "Emergency services",
+
+
+    "contact": "Contact",
+    "contact_description": "Phone numbers, passcodes, address...",
+
+    "how_to_use": "How to use?",
+    "how_to_use_description": "Machine guides, such as washing machine or aircondition.",
+
+    "checking_out": "Checking out",
+    "checking_out_description": "Follow these steps when you are leaving.",
+
+    "parking": "Parking",
+    "parking_description": "Basic information in case you have tarvelled by car.",
+
+
+
+    "food_culture": "Food & Culture",
+    "food_culture_description": "Search between restaurant, bars, shops or city sights.",
+    "transportation": "Transportation",
+    "transportation_description": "Public transport and alternative ways to get around."
+
 }

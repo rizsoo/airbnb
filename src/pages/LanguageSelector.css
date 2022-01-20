@@ -8,7 +8,7 @@
   justify-content: end;
   align-items: right;
 
-  cursor: pointer;
+  z-index: 50;
 }
 .language-selector img {
   width: 40px;
@@ -17,27 +17,35 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-left: 5px;
   z-index: 1;
+  cursor: pointer;
 }
 .language-icons {
   display: flex;
   align-items: center;
   transform: translateX(10px);
   opacity: 0;
+  visibility: hidden;
   /* width: 0; */
 
   transition: all ease-in-out 0.3s;
 }
 .language-icons img {
-  margin-left: 5px;
+  margin-left: -3px;
   width: 30px;
   height: 30px;
+  cursor: pointer;
+  z-index: 5;
+
+  transition: all ease-in-out 0.1s;
 }
 .language-icons img:hover,
 .language-selector img:hover {
-  transform: scale(1.05);
+  transform: scale(1.07);
+  z-index: 15;
 }
 .language-icons-open {
   transform: translateX(0) !important;
   opacity: 1;
+  visibility: visible;
   /* width: 100%; */
 }

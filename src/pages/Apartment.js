@@ -14,27 +14,27 @@ function Apartment () {
             <div className="content">
                 <h3 className="page-title">{t("apartment")}</h3>
             <Menu 
-                title="Contact" 
+                title={t("contact")}
                 image={contact}
-                description="Phone numbers, passcodes, address..."
+                description={t("contact_description")}
                 link="/about"
             />
             <Menu 
-                title="How to use?" 
+                title={t("how_to_use")} 
                 image={machineGuide}
-                description="Machine guides, such as washing machine or air condotion."
+                description={t("how_to_use_description")}
                 link="/guides"
             />
             <Menu 
-                title="Checking out"
+                title={t("checking_out")}
                 image={checkout}
-                description="Follow these steps when you are leaving."
+                description={t("checking_out_description")}
                 link="/check-out"
             />
             <Menu 
-                title="Parking"
+                title={t("parking")}
                 image={parking}
-                description="Basic information in case you have tarvelled by car."
+                description={t("parking_description")}
                 link="/parking"
             />
             </div>

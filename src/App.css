@@ -9,6 +9,7 @@ a:hover {
 #breaking-news {
   margin: 10px 0;
   width: 100vw;
+  max-width: 1024px;
   height: 300px;
   background-image: url("/src/img/covid_travel.webp");
   background-size: cover;
@@ -16,6 +17,7 @@ a:hover {
 
   position: relative;
   z-index: -1;
+  margin: 10px auto;
 }
 #breaking-news h4 {
   background-color: white;

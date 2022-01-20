@@ -1,7 +1,16 @@
 import Header from "../../Header";
 import "../Pages.css"
-import data from './data_checkout.js';
+
 import { useState } from "react";
+import i18next from "i18next";
+
+import data from './data/data_checkout.js';
+import hu_data from './data/data_hu_checkout';
+import fr_data from './data/data_fr_checkout';
+import it_data from './data/data_it_checkout';
+import sp_data from './data/data_sp_checkout';
+import de_data from './data/data_de_checkout';
+import ru_data from './data/data_ru_checkout.js';
 
 function Checkout () {
     const [current, setCurrent] = useState(0);
@@ -14,14 +23,31 @@ function Checkout () {
         setCurrent(current === 0 ? length - 1 : current - 1)
     }
 
-    console.log(current);
+    function isCurrentLang() {
+        if(i18next.language === "en") {
+            return data
+        } else if(i18next.language === "hu") {
+            return hu_data
+        } else if(i18next.language === "fr") {
+            return fr_data
+        } else if(i18next.language === "it") {
+            return it_data
+        } else if(i18next.language === "sp") {
+            return sp_data
+        } else if(i18next.language === "de") {
+            return de_data
+        } else if(i18next.language === "ru") {
+            return ru_data
+        }
+    };
+
+    const lang = isCurrentLang() ? isCurrentLang() : data;
 
     return (
-        
         <div className="checkout">
             <Header />
             <div className="content">
-            {data.map((slide, index) => {
+            {lang.map((slide, index) => {
             return (
                 <div className={index === current ? "checkout-background active" : "checkout-background"} key={index}>
                     {index === current && (<img src={slide.gif} alt="" />)}

@@ -1,8 +1,9 @@
 import './Menu.css'
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 function Menu(props) {
-  
+  const { t } = useTranslation();
   return (
     <div className="menu">
       <div className='menu-section'>
@@ -12,7 +13,7 @@ function Menu(props) {
               <p>{props.description}</p>
           </div>
       </div>
-      <Link to={props.link}><button>Read</button></Link>
+      <Link to={props.link}><button>{t("read")}</button></Link>
     </div>
   );
 }

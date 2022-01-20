@@ -24,25 +24,25 @@ function Info () {
             />
             <Pieces 
                 img={phoneImg}
-                title="My phone number"
+                title={t("phone_number")}
                 description="+36 30 580 5601"
                 link="tel:0036305805601"
             />
             <Pieces 
                 img={wifiImg}
-                title="Wifi password"
+                title={t("wifi_password")}
                 description="airbnbofKris1"
                 link=""
             />
             <Pieces
                 img={entrancecodeImg}
-                title="Entrance code"
+                title={t("entrance_code")}
                 description="42 [key] 3029"
                 link=""
             />
             <Pieces
                 img={emergencyImg}
-                title="Emergency services"
+                title={t("emergency_services")}
                 description="In case of emergency call: 112"
                 link="tel:112"
             />

@@ -1,5 +1,33 @@
 {
     "covid_situation": "Hatályban lévő COVID korlátozások",
+
     "apartment": "Apartman",
-    "address_of_apartment": "Az apartman címe"
+    "read": "Több",
+
+    "address_of_apartment": "Az apartman címe",
+    "phone_number": "Telefonszám",
+    "wifi_password": "Wifi jelszó",
+    "entrance_code": "Kapukód",
+    "emergency_services": "Sürgősségi telefonszám",
+
+    "contact": "Kontakt",
+    "contact_description": "Telefonszámok, jelszavak, címek...",
+
+    "how_to_use": "Használti útmutató",
+    "how_to_use_description": "Használati útmutatók, kávégéphez, mosógéphez, stb...",
+
+    "checking_out": "Kijelentkezés",
+    "checking_out_description": "Kijelentkezéskor követendő lépések.",
+
+    "parking": "Parkolás",
+    "parking_description": "Parkolási tájékoztatás, arra az esetre ha autóval érkezel.",
+
+
+    
+    "food_culture": "Gasztronómia és Kultúra",
+    "food_culture_description": "Keresés éttermek, bárok, boltok és látnivalók között.",
+
+    "transportation": "Közlekedés",
+    "transportation_description": "Tömegközlekedés és alternatív közlekedési módok."
+
 }

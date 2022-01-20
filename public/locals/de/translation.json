@@ -1,0 +1,33 @@
+{
+    "covid_situation": "Aktuelle COVID-Einschränkungen in Ungarn",
+
+    "apartment": "Wohnung",
+    "read": "Lesen",
+
+    "address_of_apartment": "Adresse der Wohnung",
+    "phone_number": "Meine Telefonnummer",
+    "wifi_password": "WLAN Passwort",
+    "entrance_code": "Zugangscode",
+    "emergency_services": "Notdienste",
+
+
+    "contact": "Kontakt",
+    "contact_description": "Telefonnummern, Passwörter, Adresse...",
+
+    "how_to_use": "Wie benutzt man?",
+    "how_to_use_description": "Maschinenführungen, wie Waschmaschine oder Klimaanlage.",
+
+    "checking_out": "Auschecken",
+    "checking_out_description": "Befolgen Sie diese Schritte, wenn Sie gehen.",
+
+    "parking": "Parken",
+    "parking_description": "Grundlegende Informationen, falls Sie mit dem Auto angereist sind.",
+
+
+
+    "food_culture": "Gastro und Kultur",
+    "food_culture_description": "Suchen Sie zwischen Restaurants, Bars, Geschäften oder Sehenswürdigkeiten der Stadt.",
+    "transportation": "Transport",
+    "transportation_description": "Öffentliche Verkehrsmittel und alternative Fortbewegungsmöglichkeiten."
+
+}

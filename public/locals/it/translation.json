@@ -1,5 +1,32 @@
 {
     "covid_situation": "Attuali restrizioni COVID in Ungheria",
+
     "apartment": "Appartamento",
-    "address_of_apartment": "Indirizzo dell'appartamento"
+    "read": "Leggi",
+
+    "address_of_apartment": "Indirizzo dell'appartamento",
+    "phone_number": "Numero di telefono",
+    "wifi_password": "Password Wi-Fi",
+    "entrance_code": "Codice d'ingresso",
+    "emergency_services": "Servizi di emergenza",
+
+    "contact": "Contatto",
+    "contact_description": "Numeri di telefono, codici di accesso, indirizzo...",
+
+    "how_to_use": "Come si usa?",
+    "how_to_use_description": "Guide macchina, come lavatrice o condizionatore.",
+
+    "checking_out": "Il check-out",
+    "checking_out_description": "Segui questi passaggi quando esci.",
+
+    "parking": "Parcheggio",
+    "parking_description": "Informazioni di base nel caso abbiate viaggiato in auto.",
+
+    
+    "food_culture": "Cibo e Cultura",
+    "food_culture_description": "Cerca tra ristoranti, bar, negozi o luoghi di interesse della città.",
+
+    "transportation": "Transporto",
+    "transportation_description": "Trasporti pubblici e modi alternativi per spostarsi."
+
 }
