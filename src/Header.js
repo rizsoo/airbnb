@@ -1,7 +1,6 @@
 import './Header.css';
 import {useState, useRef} from 'react'
 import { Link } from 'react-router-dom';
-import Apartment from './pages/Apartment';
 import Navbar from './pages/Navbar';
 
 function Header() {
