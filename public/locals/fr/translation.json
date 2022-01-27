@@ -9,6 +9,8 @@
     "wifi_password": "Mot de passe WiFi",
     "entrance_code": "Code d'entrée",
     "emergency_services": "Services d'urgence",
+    "emergency_services_description": "En cas d'urgence appelez le: 112",
+
 
     "contact": "Contact",
     "contact_description": "Numéros de téléphone, codes d'accès, adresse...",

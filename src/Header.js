@@ -1,8 +1,8 @@
 import './Header.css';
 import {useState, useRef} from 'react'
 import { Link } from 'react-router-dom';
-import Navbar from './pages/Navbar';
-import LanguageSelector from './pages/LanguageSelector';
+import Navbar from './components/Navbar';
+import LanguageSelector from './components/LanguageSelector';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);

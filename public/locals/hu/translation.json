@@ -9,6 +9,8 @@
     "wifi_password": "Wifi jelszó",
     "entrance_code": "Kapukód",
     "emergency_services": "Sürgősségi telefonszám",
+    "emergency_services_description": "Vészhelyzet esetén hívni: 112",
+
 
     "contact": "Kontakt",
     "contact_description": "Telefonszámok, jelszavak, címek...",

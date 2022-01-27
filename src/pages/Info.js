@@ -43,7 +43,7 @@ function Info () {
             <Pieces
                 img={emergencyImg}
                 title={t("emergency_services")}
-                description="In case of emergency call: 112"
+                description={t("emergency_services_description")}
                 link="tel:112"
             />
         </div>

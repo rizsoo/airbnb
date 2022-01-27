@@ -9,6 +9,7 @@
     "wifi_password": "WLAN Passwort",
     "entrance_code": "Zugangscode",
     "emergency_services": "Notdienste",
+    "emergency_services_description": "Bei Notruf: 112",
 
 
     "contact": "Kontakt",
