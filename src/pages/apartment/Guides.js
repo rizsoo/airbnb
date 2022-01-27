@@ -6,7 +6,7 @@ import boiler from "../../img/guides/water-boiler.png"
 import washing from "../../img/guides/washing-machine.png"
 import stove from "../../img/guides/electric-stove.png"
 import aircondition from "../../img/guides/air-conditioner.png"
-import Machines from '../../Machines'
+import Machines from '../../components/guides_component'
 
 const Guides = () => {
     return (

@@ -1,0 +1,15 @@
+.cafe_component {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  margin: 0 auto;
+}
+.cafe_component img {
+  width: 150px;
+  height: 150px;
+}

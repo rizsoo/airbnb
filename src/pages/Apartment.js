@@ -1,5 +1,5 @@
 import Header from "../Header";
-import Menu from "../Menu";
+import Menu from "../components/menu_component";
 import machineGuide from "../img/washing_machine_2.webp"
 import checkout from "../img/checking_out.webp"
 import parking from "../img/parking.jpg"

@@ -1,5 +1,5 @@
 import Header from "../Header";
-import Menu from "../Menu";
+import Menu from "../components/menu_component";
 import foodandculture from "../img/foodandculture.JPG"
 import transport from "../img/transport.jpg"
 import { useTranslation } from "react-i18next";

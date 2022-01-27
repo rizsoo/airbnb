@@ -1,4 +1,4 @@
-import './Locations.css'
+import './locations_component.css'
 import { useState } from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react'
 

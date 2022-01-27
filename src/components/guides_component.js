@@ -1,5 +1,5 @@
 import React from 'react'
-import './Machines.css'
+import './guides_component.css'
 import { Link } from 'react-router-dom';
 
 function Machines(props) {

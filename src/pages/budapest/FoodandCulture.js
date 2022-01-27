@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../Header'
 import data from './data_foodandculture.js'
-import Locations from '../../Locations'
+import Locations from '../../components/locations_component'
 import { useState } from 'react'
 import hashtags from './data_hashtags.js'
 
