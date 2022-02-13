@@ -6,7 +6,7 @@ li {
   height: 80px;
 }
 .header-content {
-  max-width: 1024px;
+  max-width: 600px;
   height: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -19,10 +19,10 @@ li {
 
   position: relative;
   z-index: 100;
+  padding: 0 15px;
 }
 
 .header-content h1 {
-  padding: 15px;
   margin: 0;
 }
 @media (max-width: 400px) {
@@ -34,7 +34,6 @@ li {
   color: white;
   font-size: 40px;
   cursor: pointer;
-  padding-right: 25px;
 }
 
 .navbar {
@@ -47,7 +46,7 @@ li {
   height: 0;
 
   width: 100vw;
-  max-width: 500px;
+  max-width: 300px;
 
   background-color: #ff5a5f;
   color: white;

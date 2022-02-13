@@ -8,12 +8,13 @@ import step2 from '../../../img/cafe/cafe_step_2.png'
 import step3 from '../../../img/cafe/cafe_step_3.png'
 import step4 from '../../../img/cafe/cafe_step_4.png'
 import step5 from '../../../img/cafe/cafe_step_5.png'
+import HeaderTitle from '../../../HeaderTitle'
 
 function Cafeguide() {
     return (
         <div>
             <Header />
-            <h3 className="page-title">Cafe machine guide</h3>
+            <HeaderTitle title="Cafe machine guide" />
             <Cafecomponent 
             title="Step 1."
             desc="Fill up the water container with purified water, than put it back correctly."

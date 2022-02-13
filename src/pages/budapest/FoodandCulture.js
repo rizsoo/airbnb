@@ -18,7 +18,7 @@ const FoodandCulture = () => {
         <div className='foodandculture'>
             <Header />
             <div>
-            <input type="text" placeholder={"Search between places..."} onChange={event => {setSearchTerm(event.target.value); setActive()}}/>
+            <center><input type="text" placeholder={"Search between places..."} onChange={event => {setSearchTerm(event.target.value); setActive()}}/></center>
             <div className='filtering'>
                 {hashtags.map((tag, index) => <h6 
 

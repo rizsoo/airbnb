@@ -1,6 +1,6 @@
 .transport-box {
   width: calc(100vw - 30px);
-  max-width: 1000px;
+  max-width: 600px;
   height: 250px;
 
   margin: 15px;

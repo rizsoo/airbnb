@@ -1,18 +1,19 @@
 .locations {
   width: calc(100vw - 30px);
-  max-width: 500px;
+  max-width: 600px;
   min-height: 85px;
 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
   border-radius: 10px;
   overflow: hidden;
 
-  margin: 15px;
   padding: 10px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  margin: 13px auto;
 }
 .locations-section {
   display: flex;
@@ -126,4 +127,40 @@
   max-width: 500px;
   height: auto;
   margin: 15px 0;
+}
+.foodandculture input {
+  width: calc(100vw - 30px);
+  max-width: 600px;
+  padding: 10px;
+
+  border-radius: 10px;
+  outline: none;
+  border: solid 1px grey;
+
+  margin: 10px auto 0 auto;
+}
+.filtering {
+  width: calc(100vw - 30px);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  max-width: 600px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.filtering h6 {
+  padding: 5px;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+}
+.highlight {
+  background-color: cadetblue;
+  color: white;
+}
+.sorry {
+  margin: 15px;
+  padding: 5px;
 }

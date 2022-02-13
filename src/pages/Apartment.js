@@ -5,6 +5,7 @@ import checkout from "../img/checking_out.webp"
 import parking from "../img/parking.jpg"
 import contact from "../img/contact.webp"
 import { useTranslation } from "react-i18next";
+import HeaderTitle from '../HeaderTitle'
 
 function Apartment () {
     const { t } = useTranslation();
@@ -12,7 +13,7 @@ function Apartment () {
         <div className="apartment">
             <Header />
             <div className="content">
-                <h3 className="page-title">{t("apartment")}</h3>
+                <HeaderTitle title={t("apartment")} />
             <Menu 
                 title={t("contact")}
                 image={contact}

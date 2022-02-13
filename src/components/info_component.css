@@ -1,10 +1,9 @@
 .piece-content {
   width: calc(100vw - 30px);
-  max-width: 500px;
+  max-width: 600px;
   height: auto;
   min-height: 85px;
 
-  margin: 15px;
   padding: 10px;
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -15,6 +14,8 @@
 
   margin-right: auto;
   margin-left: auto;
+
+  margin: 13px auto;
 }
 .piece-textarea {
   height: 100%;

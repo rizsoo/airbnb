@@ -1,15 +1,21 @@
 .cafe_component {
   width: 100%;
-  max-width: 1000px;
+  max-width: 600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .cafe_component img {
   width: 150px;
   height: 150px;
+}
+@media (max-width: 600px) {
+  .cafe_component {
+    flex-direction: row-reverse;
+    justify-content: left;
+  }
 }

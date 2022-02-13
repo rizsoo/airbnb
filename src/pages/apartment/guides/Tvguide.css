@@ -1,7 +1,7 @@
 .no-connection {
   width: calc(100vw - 30px);
-  max-width: 500px;
-  margin: 15px;
+  max-width: 600px;
+  margin: 15px auto;
   padding: 20px;
 
   background-color: #f5faff;

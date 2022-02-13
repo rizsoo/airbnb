@@ -29,6 +29,11 @@
     "food_culture": "Food & Culture",
     "food_culture_description": "Search between restaurant, bars, shops or city sights.",
     "transportation": "Transportation",
-    "transportation_description": "Public transport and alternative ways to get around."
+    "transportation_description": "Public transport and alternative ways to get around.",
+    
+    "public_transport" : "Public transport",
+    "taxi_services": "Taxi services",
+    "car_sharing": "Car sharing",
+    "two_wheel_share": "Two wheel share"
 
 }

@@ -6,18 +6,21 @@ import taxi from '../../img/taxi.jpg'
 import carshare from '../../img/carshare.jpg'
 import bubi from '../../img/bubi.jpg'
 import bkk from '../../img/bkk.png'
+import { useTranslation } from "react-i18next";
 
 // import '../../index.css'
 import TransportSubmenu from './TransportSubmenu'
+import HeaderTitle from '../../HeaderTitle'
 
 const Transportation = () => {
+    const { t } = useTranslation();
     return (
         <div>
             <Header />
-            <h3 className="page-title">Transportation</h3>
+            <HeaderTitle title={t("transportation")} />
                 <TransportSubmenu 
                     image={publictransport}
-                    title="Public Transport"
+                    title={t("public_transport")}
                     className="public-transport"
                     content={
                         <div className='public-transport-content'>
@@ -29,15 +32,15 @@ const Transportation = () => {
                 />
                 <TransportSubmenu 
                     image={taxi}
-                    title="Taxi services"
+                    title={t("taxi_services")}
                 />
                 <TransportSubmenu 
                     image={carshare}
-                    title="Car sharing"
+                    title={t("car_sharing")}
                 />
                 <TransportSubmenu 
                     image={bubi}
-                    title="Two wheel share"
+                    title={t("two_wheel_share")}
                 />
         </div>
     )

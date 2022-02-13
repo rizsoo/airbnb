@@ -1,19 +1,12 @@
-.machines {
-  background-color: white;
-  width: 50vw;
-  max-width: 250px;
-  height: 50vw;
-  max-height: 250px;
-
-  box-shadow: rgba(50, 50, 93, 0.25) 10px 5px 7px -12px inset,
-    rgba(0, 0, 0, 0.3) 11px 15px 15px -15px inset;
-
+.guides-page-content {
+  max-width: 600px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+  flex-wrap: wrap;
+  height: auto;
+
+  margin: 10px auto;
 }
+
 .machines img {
   height: 55px;
 }
@@ -21,4 +14,21 @@
   font-weight: bold;
   text-align: center;
   padding: 0 15px;
+}
+
+.machines {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  width: calc(50vw - 20px);
+  max-width: calc(300px - 20px);
+  height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  border-radius: 20px;
+  margin: 10px;
 }

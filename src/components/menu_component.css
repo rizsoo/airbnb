@@ -1,6 +1,6 @@
 .menu {
   width: calc(100vw - 30px);
-  max-width: 500px;
+  max-width: 600px;
   min-height: 85px;
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
@@ -8,12 +8,12 @@
   border-radius: 10px;
   overflow: hidden;
 
-  margin: 15px;
   padding: 10px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 13px auto;
 }
 .menu-section {
   display: flex;
