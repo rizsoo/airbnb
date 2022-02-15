@@ -34,6 +34,35 @@
     "public_transport" : "Public transport",
     "taxi_services": "Taxi services",
     "car_sharing": "Car sharing",
-    "two_wheel_share": "Two wheel share"
+    "two_wheel_share": "Two wheel share",
+
+    "tv_guide": "TV guide",
+    "cafe_guide": "Cafe guide",
+    "boiler_guide": "Boiler guide",
+    "washing_guide": "Washing machine",
+    "washing_guide_title": "Washing machine guide",
+    "stove_guide": "Stove guide",
+    "air_guide": "Air condition",
+
+    "step_1": "Step 1.",
+    "step_2": "Step 2.",
+    "step_3": "Step 3.",
+    "step_4": "Step 4.",
+    "step_5": "Step 5.",
+    "step_6": "Step 6.",
+    "step_7": "Step 7.",
+
+    "washing_step1_desc": "Load the machine with clothes and close the door.",
+    "washing_step2_desc": "Fill it with the detergent liquid!",
+    "washing_step3_desc": "Press the “POWER” button.",
+    "washing_step4_desc": "Choose the program you would like.",
+    "washing_step5_desc": "Choose temperature and speed by pressing ‘Spin’ and ‘Temp.’ on the black screen.",
+    "washing_step6_desc": "Press “Start/Stop” button.",
+
+    "stoveguide_page_content": [
+        {
+            
+        }
+    ]
 
 }
