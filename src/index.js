@@ -17,6 +17,11 @@ import Parking from './pages/apartment/Parking';
 import FoodandCulture from './pages/budapest/FoodandCulture';
 import Tvguide from './pages/apartment/guides/Tvguide';
 import Cafeguide from './pages/apartment/guides/Cafeguide';
+import WashingmachineGuide from './pages/apartment/guides/WashingmachineGuide';
+import BoilerGuide from './pages/apartment/guides/Boilerguide';
+import StoveGuide from './pages/apartment/guides/Stoveguide';
+import AirconditionGuide from './pages/apartment/guides/AirconditionGuide';
+
 import Transportation from './pages/budapest/Transportation';
 import { Suspense } from 'react';
 
@@ -40,6 +45,10 @@ ReactDOM.render(
       <Route path='/foodandculture' element={<FoodandCulture />} />
       <Route path='/tvguide' element={<Tvguide />} />
       <Route path='/cafeguide' element={<Cafeguide />} />
+      <Route path='/washingmachineguide' element={<WashingmachineGuide />} />
+      <Route path='/boilerguide' element={<BoilerGuide />} />
+      <Route path='/stoveguide' element={<StoveGuide />} />
+      <Route path='/aircondition' element={<AirconditionGuide />} />
       <Route path='/public-transport' element={<Transportation />} />
     </Routes>
   </BrowserRouter>

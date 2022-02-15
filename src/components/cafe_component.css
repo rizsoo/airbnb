@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+
+  padding: 15px 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   margin: 20px auto;
@@ -17,5 +18,10 @@
   .cafe_component {
     flex-direction: row-reverse;
     justify-content: left;
+    gap: 10px;
+  }
+  .cafe_component img {
+    width: 120px;
+    height: 120px;
   }
 }

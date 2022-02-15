@@ -1,13 +1,18 @@
 import React from 'react'
 import Header from '../../../Header'
+import HeaderTitle from '../../../HeaderTitle'
+
 import tverror from '../../../img/tv_error.png'
 import './Tvguide.css'
 
+import { useTranslation } from "react-i18next";
+
 function Tvguide() {
+    const { t } = useTranslation();
     return (
         <div>
             <Header />
-            <h3 className="page-title">Tv guide</h3>
+            <HeaderTitle title={t("tv_guide")} />
             <div className='no-connection'>
                 <div className='no-connection-text'>
                 <div>

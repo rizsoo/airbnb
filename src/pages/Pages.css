@@ -1,24 +1,37 @@
 .content {
-  margin-left: auto;
-  margin-right: auto;
-
-  max-width: 1024px;
   width: 100vw;
+  max-width: 600px;
+
+  margin: 0 auto;
+
+  position: relative;
 }
-.page-title {
-  background-color: rgb(255, 235, 238);
-  padding: 10px;
-  font-weight: bold;
-  margin: 15px;
+.text-content {
+  width: 100vw;
+  max-width: 600px;
+
+  padding: 15px;
+
+  margin: 0 auto;
+}
+.text-content img {
+  width: calc(100vw - 30px);
+  max-width: 400px;
+}
+.text-content ul {
+  list-style: none;
+  padding-left: 15px;
 }
 
+/* CHECKOUT */
 .checkout-background {
   width: 100vw;
+  max-width: 600px;
   height: auto;
 }
 .checkout-background img {
   width: 100vw;
-  max-width: 1024px;
+  max-width: 600px;
   height: calc(100vh - 80px);
   object-fit: cover;
 }
@@ -33,7 +46,7 @@
 
   height: 100px;
   width: 100vw;
-  max-width: 1024px;
+  max-width: 600px;
 }
 .arrows {
   width: 60px;

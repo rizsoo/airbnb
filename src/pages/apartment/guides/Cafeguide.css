@@ -1,0 +1,26 @@
+.piggybank {
+  background-color: #ffcfdb;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  margin: 20px auto;
+}
+.piggybank img {
+  width: 100px;
+  height: 100px;
+}
+.piggybank p {
+  line-height: 21px;
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .piggybank img {
+    display: none;
+  }
+}

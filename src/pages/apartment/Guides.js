@@ -8,38 +8,41 @@ import stove from "../../img/guides/electric-stove.png"
 import aircondition from "../../img/guides/air-conditioner.png"
 import Machines from '../../components/guides_component'
 
+import { useTranslation } from "react-i18next";
+
 const Guides = () => {
+    const { t } = useTranslation();
     return (
         <div>
             <Header />
             <div className='guides-page-content'>
                 <Machines 
-                    title="TV guide" 
+                    title={t("tv_guide")} 
                     image={tvguide}
                     link="/tvguide"
                 />
                 <Machines 
-                    title="Cafe machine" 
+                    title={t("cafe_guide")} 
                     image={cafe}
                     link="/cafeguide"
                 />
                 <Machines 
-                    title="Boiler guide" 
+                    title={t("boiler_guide")} 
                     image={boiler}
                     link="/boilerguide"
                 />
                 <Machines 
-                    title="Washing machine" 
+                    title={t("washing_guide")} 
                     image={washing}
                     link="/washingmachineguide"
                 />
                 <Machines 
-                    title="Stove guide" 
+                    title={t("stove_guide")}
                     image={stove}
                     link="/stoveguide"
                 />
                 <Machines 
-                    title="Air condition" 
+                    title={t("air_guide")}
                     image={aircondition}
                     link="/aircondition"
                 />
