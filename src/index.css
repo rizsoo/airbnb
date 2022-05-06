@@ -34,3 +34,13 @@ a:hover {
   margin-right: auto !important;
   margin-left: auto !important;
 }
+button {
+  border-radius: 10px;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: rgb(241, 241, 241);
+  color: rgb(0, 157, 255);
+  border: unset;
+  padding: 2px 13px;
+  outline: unset;
+}

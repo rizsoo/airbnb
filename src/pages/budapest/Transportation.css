@@ -60,8 +60,8 @@
 .transport-popup {
   background-color: white;
   width: calc(100vw - 30px);
-  height: calc(100vh - 30px);
 
+  max-height: 90vh;
   max-width: 600px;
 
   padding: 15px;
@@ -95,4 +95,11 @@
 }
 .public-transport-content p {
   font-size: 15px;
+}
+.public-transport-content h5 {
+  color: rgb(30, 117, 103);
+}
+.sorry {
+  max-width: 600px;
+  margin: 0 auto;
 }

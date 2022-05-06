@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../../../Header'
 import HeaderTitle from '../../../HeaderTitle'
 
 import tverror from '../../../img/tv_error.png'
@@ -11,17 +10,16 @@ function Tvguide() {
     const { t } = useTranslation();
     return (
         <div>
-            <Header />
             <HeaderTitle title={t("tv_guide")} />
             <div className='no-connection'>
                 <div className='no-connection-text'>
                 <div>
-                    <h4>No connection?</h4>
-                    <p>Sometimes the tv loose its connection to the internet. This case just re-set the internet in the settings of the TV or plug out and in the Television’s power outlet.</p>
+                    <h4>{t("no_connection")}</h4>
+                    <p>{t("no_connection_desc")}</p>
                 </div>
                 <img src={tverror} alt='' />
                 </div>
-                <p><i>*There are internet applications, but no cable tv on this device</i></p>
+                <p><i>{t("no_connection_desc_2")}</i></p>
             </div>
             
         </div>

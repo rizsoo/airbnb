@@ -1,5 +1,6 @@
 {
   "name": "myapp",
+  "homepage": "https://kristofapartmentbudapest.hu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

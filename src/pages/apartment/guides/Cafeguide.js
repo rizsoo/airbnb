@@ -1,6 +1,5 @@
 import React from 'react'
 import './Cafeguide.css'
-import Header from '../../../Header'
 import Cafecomponent from '../../../components/cafe_component'
 
 import piggyBank from '../../../img/cafe/money.png'
@@ -12,46 +11,50 @@ import step5 from '../../../img/cafe/cafe_step_5.png'
 import HeaderTitle from '../../../HeaderTitle'
 
 import { useTranslation } from "react-i18next";
-
+import { Link } from 'react-router-dom'
 
 function Cafeguide() {
     const { t } = useTranslation();
     return (
         <div className='cafe-guide'>
-            <Header />
             <HeaderTitle title={t("cafe_guide")} />
+            <a href={"revolut.me/kritfo3qr"} target="_blank" >
             <div className='piggybank'>
                 <div>
-                    <h3><b>Honesty box system</b></h3>
-                    <p>When using capsules from the container box, you can choose to leave money for it. There is no fix price, you can leave as much as you value your consumption.</p>
+                    <h3><b>{t("honesty_box")}</b></h3>
+                    <p>{t("honesty_box_desc")}<br></br><b>{t("click_here")}</b></p>
                 </div>
                 <img src={piggyBank} alt=''/>
             </div>
+            </a>
                 <Cafecomponent 
                     title={t("step_1")}
-                    desc="Fill up the water container with purified water, than put it back correctly."
+                    desc={t("cafe_step_1")}
                     image={step1}
                 />
                 <Cafecomponent 
                     title={t("step_2")}
-                    desc="Press any of the buttons on the top and wait until the buttons stop to blink."
+                    desc={t("cafe_step_2")}
                     image={step2}
                 />
                 <Cafecomponent 
                     title={t("step_3")}
-                    desc="When the machine is ready you can put the capsule in, than close the lever."
+                    desc={t("cafe_step_3")}
                     image={step3}
                 />
                 <Cafecomponent 
                     title={t("step_4")}
-                    desc="Place a cup under it."
+                    desc={t("cafe_step_4")}
                     image={step4}
                 />
                 <Cafecomponent 
                     title={t("step_5")}
-                    desc="Choose your style and press one of the buttons."
+                    desc={t("cafe_step_5")}
                     image={step5}
                 />
+                <div className='text-content'>
+                    <a href='https://youtu.be/wTiYxDsQck8' target="_blank">YouTube video on usage <ion-icon name="open-outline"></ion-icon></a>
+                </div>
         </div>
     )
 }

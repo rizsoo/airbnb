@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../../Header'
 import tvguide from "../../img/guides/tv.png"
 import cafe from "../../img/guides/espresso.png"
 import boiler from "../../img/guides/water-boiler.png"
@@ -14,7 +13,6 @@ const Guides = () => {
     const { t } = useTranslation();
     return (
         <div>
-            <Header />
             <div className='guides-page-content'>
                 <Machines 
                     title={t("tv_guide")} 

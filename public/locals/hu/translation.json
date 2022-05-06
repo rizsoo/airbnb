@@ -1,35 +1,175 @@
 {
-    "covid_situation": "Hatályban lévő COVID korlátozások",
-
-    "apartment": "Apartman",
-    "read": "Több",
-
-    "address_of_apartment": "Az apartman címe",
-    "phone_number": "Telefonszám",
-    "wifi_password": "Wifi jelszó",
-    "entrance_code": "Kapukód",
-    "emergency_services": "Sürgősségi telefonszám",
-    "emergency_services_description": "Vészhelyzet esetén hívni: 112",
-
-
-    "contact": "Kontakt",
-    "contact_description": "Telefonszámok, jelszavak, címek...",
-
-    "how_to_use": "Használti útmutató",
-    "how_to_use_description": "Használati útmutatók, kávégéphez, mosógéphez, stb...",
-
-    "checking_out": "Kijelentkezés",
-    "checking_out_description": "Kijelentkezéskor követendő lépések.",
-
-    "parking": "Parkolás",
-    "parking_description": "Parkolási tájékoztatás, arra az esetre ha autóval érkezel.",
-
-
+    "covid_situation": "Jelenlegi COVID korlátozások Magyarországon",
     
-    "food_culture": "Gasztronómia és Kultúra",
-    "food_culture_description": "Keresés éttermek, bárok, boltok és látnivalók között.",
-
-    "transportation": "Közlekedés",
-    "transportation_description": "Tömegközlekedés és alternatív közlekedési módok."
-
-}
+    "apartment":  "Apartman",
+    "read":  "Több",
+    "more":  "Több",
+    
+    "address_of_apartment":  "A lakás címe",
+    "phone_number":  "A telefonszámom",
+    "wifi_password":  "Wifi jelszó",
+    "entrance_code":  "Bejárati kapu kódja",
+    "emergency_services":  "Sürgősségi ellátás",
+    "emergency_services_description":  "Vészhelyzet esetén hívni: 112",
+    "hidden-info-show":  "Mutasd",
+    
+    "apartment-history":  "A lakás története",
+    "apartment-history_description":  "Olvassa utána a helynek (csak angolul)",
+    
+    "contact":  "Kapcsolat",
+    "contact_description":  "Telefonszámok, jelkódok, cím...",
+    
+    "how_to_use":  "Hogyan kell használni?",
+    "how_to_use_description":  "Használati útmutautók, például mosógép vagy légkondicionálóhoz.",
+    
+    "checking_out":  "Kijelentkezés",
+    "checking_out_description":  "Kijelentkezéskor követendő lépések.",
+    "checking_out_step1":  "Kapcsold le az összes lámpát és elektromos készüléket.",
+    "checking_out_step2":  "Kapcsold le a fűtési rendszert (a radiátorokat állítsa nullára).",
+    "checking_out_step3":  "Csukd be az ablakokat.",
+    "checking_out_step4":  "Csukd be és zárd be az összes bejárati ajtót.",
+    "checking_out_step5":  "Tedd vissza a kulcsot a kulcsszéfbe.",
+    
+    "parking":  "Parkolás",
+    "parking_description":  "Alapinformációk arra az esetre, ha autóval érkezel.",
+    
+    "food_culture":  "Gasztronómia és Kultúra",
+    "food_culture_description":  "Keresés éttermek, bárok, üzletek vagy városi látnivalók között.",
+    
+    "Fisherman's bastion":  "Halászbástya",
+    "St. Stephen's Basilica":  "Szent István Bazilika",
+    "Parlament":  "Parlament",
+    "Citadella":  "Citadella",
+    "Elizabeth Lookout Tower":  "Erzsébet-kilátó",
+    "Zugliget Chairlift":  "Zugliget Libegő",
+    "Heroes Square":  "Hősök tere",
+    "Morrisons 2 club":  "Morrisons 2 klub",
+    "Vakvarjú Restaurant":  "Vakvarjú étterem",
+    "Great Market Hall":  "Nagy Vásárcsarnok",
+    "Synagogue":  "Zsinagóga",
+    "Mazel Tov - Bar & Restaurant":  "Mazel Tov - bár és étterem",
+    "Margharet island":  "Margit sziget",
+    "Szimpla Kert bar":  "Szimpla Kert bár",
+    "Szechenyi Spa":  "Széchenyi Gyógyfürdő",
+    "House of Terror":  "A terror háza",
+    "Buda Castle":  "Budai Vár",
+    "Gozsdu yard":  "Gozsdu udvar",
+    "Kőleves Garden - Bar & Restaurant":  "Kőleves Kert - Bar & Restaurant",
+    "Gellért Thermal bath":  "Gellért Termálfürdő",
+    "Aquaworld Resort":  "Aquaworld Resort",
+    "Pándzsáb Tandori Indian Restaurant":  "Pándzsáb Tandori indiai étterem",
+    "Szeráj Turkish Restaurant":  "Szeráj török étterem",
+    "Vígszínház theaterment":  "Vígszínház ",
+    "Budapest Jazz Club":  "Budapest Jazz Club",
+    "Oriental Soup House restaurant":  "Oriental Soup House étterem",
+    "Mosselen Belgian Bar & Restaurant":  "Mosselen belga bár és étterem",
+    "Stika Restaurant":  "Stika étterem",
+    "D'al Michele Italian Restaurant":  "D'al Michele olasz étterem",
+    "City Park Ice Rin":  "Városligeti jégpálya",
+    "Budapest Zoo and Botanical Garden":  "Budapesti Állat- és Növénykert",
+    "Váci Street":  "Váci utca",
+    "Cyberjump trampoline park":  "Cyberjump trambulin park",
+    
+    "culture":  "kultúra",
+    "panorama":  "panoráma",
+    "sightseeing":  "városnézés",
+    "activities":  "tevékenységek",
+    "nightlife":  "éjszakai élet",
+    "bar":  "bár",
+    "food":  "étel",
+    "shopping":  "vásárlás",
+    "spa":  "gyógyfürdő",
+    "museum":  "múzeum",
+    "nearby":  "közelben",
+    "bestof":  "legjobb",
+    "theater":  "színház",
+    "breakfast":  "reggeli",
+    
+    "transportation":  "Közlekedés",
+    "transportation_description":  "Tömegközlekedés és alternatív közlekedési módok.",
+    
+    "public_transport" :  "Tömegközlekedés",
+    "taxi_services":  "Taxis szolgáltatások",
+    "car_sharing":  "Autó Megosztás",
+    "two_wheel_share":  "Két kerékű megosztás",
+    
+    "tv_guide":  "Tv útmutató",
+    "cafe_guide":  "Kávégép útmutató",
+    "boiler_guide":  "Kazán útmutató",
+    "washing_guide":  "Mosógép",
+    "washing_guide_title":  "Mosógép útmutató",
+    "stove_guide":  "Tűzhely útmutató",
+    "air_guide":  "Légkondicionáló útmutató",
+    
+    "step_1":  "1. lépés.",
+    "step_2":  "2. lépés.",
+    "step_3":  "3. lépés.",
+    "step_4":  "4. lépés.",
+    "step_5":  "5. lépés.",
+    "step_6":  "6. lépés.",
+    "step_7":  "7. lépés.",
+    
+    "no_connection":  "Nincs kapcsolat?",
+    "no_connection_desc":  "Néha a tévé elveszti az internetkapcsolatot. Ebben az esetben csak állítsa újra az internetet a TV beállításaiban, vagy húzza ki majd be a tápkábelt a konnektorba.",
+    "no_connection_desc_2":  "*Ezen az eszközön nincs kábeltévé, de vannak internetes alkalmazások.",
+    
+    "honesty_box":  "Becsületkasszás rendszer",
+    "honesty_box_desc":  "A Nespresso kapszulák használatakor választhatsz, hogy pénzt adsz érte. Nincs fix ár, annyit küldhetsz, amennyire értékeled a fogyasztásod.",
+    "click_here":  "Kattints ide a pénz küldéséhez!",
+    "cafe_step_1":  "Töltsd fel a víztartályt tisztított vízzel, majd helyezd megfelelően vissza.",
+    "cafe_step_2":  "Nyomjd meg bármelyik gombot a tetején, és várd meg, amíg a gombok abbahagyják a villogást.",
+    "cafe_step_3":  "Amikor a gép készen áll, helyezd be a kapszulát, majd csukd be a kart.",
+    "cafe_step_4":  "Tegyél alá egy csészét.",
+    "cafe_step_5":  "Válaszd ki a kávé stílusát, és nyomd meg az egyik gombot.",
+    
+    "boiler_desc_1":  "Vízbojler a falon, a fürdőszoba melletti kis mosókonyhában található.",
+    "boiler_desc_2":  "Ha elfogy a meleg víz, meg kell nyomni a 'PLUSZ' gombot a fűtési teljesítmény növeléséhez.",
+    "boiler_desc_3":  "Én általában ECO-n hagyom.",
+    
+    "washing_step1_desc":  "Töltsd meg ruhával a gépbet, és csukd be az ajtót.",
+    "washing_step2_desc":  "Öntsd a mosószert a megfelelő helyre!",
+    "washing_step3_desc":  "Nyomd meg a 'POWER' gombot.",
+    "washing_step4_desc":  "Válaszd ki a kívánt programot.",
+    "washing_step5_desc":  "Válaszd ki a hőmérsékletet és a sebességet a 'Centrifugálás' és a 'Hőmérséklet' gomb megnyomásával a fekete képernyőn.",
+    "washing_step6_desc":  "Nyomd meg a 'Start/Stop' gombot.",
+    "washing_warning":  "*FIGYELEM! Ha csak néhány ruhát teszel be, a gép nem szárítja meg, főleg ha valami nehézről, például egy-két törölközőről van szó.",
+    
+    "stove_desc_1":  "Bármilyen serpenyőt használhatsz, amit a konyhában találsz. Működik a kotyogós kávéfőzővel is.",
+    "stove_desc_2":  "Nem fog működni, ha nem teszel rá serpenyőt.",
+    "stove_desc_3":  "Lépések",
+    "stove_step_1":  "1. Nyomd meg a Bekapcsoló gombot, amíg sípoló hangot nem hall.",
+    "stove_step_2":  "2. Tegyél egy serpenyőt bármely tűzhelyre.",
+    "stove_step_3":  "3. Válaszd ki a tűzhelyet az 'Alsó' vagy a 'Felső' gomb megnyomásával.",
+    "stove_step_4":  "4. Nyomd meg a 'Plusz' gombot a hőfok kiválasztásához.",
+    "stove_desc_4":  "Gombok",
+    
+    "airc_desc_1":  "Két klímaberendezés van ebben a lakásban. Mindkettő mindkét vezérlővel állítható.",
+    "airc_desc_2":  "Mindkettő képes hűteni vagy melegíteni.",
+    "airc_desc_3":  "Szabályok",
+    
+    "day_word":  "nap",
+    
+    "parking_desc_1": "Parkolás az utcán",
+    "parking_desc_2":  "Ha autóval érkezel Budapestre, itt van néhány hely, ahol otthagyhatod az autód.",
+    "parking_desc_3":  "Először is, az UTCAI PARKOLÁS NEM INGYENES, és időkorlátos. A lakás körzetében a parkolás 450 forint óránként. Emellett kétóránként jegyet kell váltani.",
+    "parking_desc_4":  "Hétvégén ingyenes a parkolás az utcákon.",
+    "parking_desc_5":  "INGYENES megoldás",
+    "parking_desc_6":  "A legközelebbi hely, ahol nem kell fizetni az utcán, körülbelül 15 percnyire van busszal. (91-es és 291-es busz)",
+    "parking_desc_7":  "A parkolási zóna prios, ahol nem látsz színt, ott ingyenes. Azt javaslom, hogy keress egy helyet a Vérhalom tér közelében, és a 91-es vagy 291-es busszal gyere vissza a lakásba.",
+    "parking_desc_8":  "Pontos cím:",
+    "parking_desc_9":  "FIZETŐS megoldás",
+    "parking_desc_10":  "Három őrzött parkoló van a közelben. (az ár napra vonatkozik)",
+    "parking_desc_11":  "160 m-re a lakástól. Könnyű ki- és bejutás.",
+    "parking_desc_12":  "70 m-re. Elkérik a kocsikulcsot.",
+    "parking_desc_13":  "1 km-re. 15 perc gyalog, de nagyon olcsó.",
+    
+    "public_transport_tr_desc_1":  "Tipp",
+    "public_transport_tr_desc_2":  "Most már a BudapestGO alkalmazással is vásárolhatsz jegyet.",
+    "public_transport_tr_desc_3":  "Kattints ide a BudapestGO alkalmazás letöltéséhez",
+    "public_transport_tr_desc_4":  "A lakás címe",
+    "public_transport_taxi_desc_1":  "Taxihoz javaslom a Bolt alkalmazást. Ugyanúgy működik, mint az Uber, de mivel Budapesten az nincs, használd a Boltot.",
+    "public_transport_car_desc_1":  "Számos autómegosztó alkalmazás létezik.",
+    "public_transport_bike_desc_1":  "Több kerékpár- és görgőmegosztó alkalmazás létezik, amelyek közül választhatsz."
+    
+    }
+    

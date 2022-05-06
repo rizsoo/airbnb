@@ -1,0 +1,24 @@
+.parking {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.parking img {
+    max-width: 600px;
+    width: 100%;
+}
+.parking h4 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.verhalom {
+    color:#0693e3;
+}
+@media (max-width: 400px) {
+    .parking {
+        padding: 0 15px;
+    }
+    .parking img {
+        max-width: calc(600px - 30px);
+    }
+}

@@ -1,6 +1,7 @@
 import './locations_component.css'
 import { useState } from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react'
+import { useTranslation } from "react-i18next";
 
 function Locations(props) {
   const [showPopup, setShowPopup] = useState(false);
@@ -12,22 +13,23 @@ function Locations(props) {
     document.body.style.overflow = "auto";
   }
 
+  const { t } = useTranslation();
   const isBestOf = props.bestof ? true : null;
   return (
     <div className="locations">
       <div className='locations-section'>
-        <img src={props.image} alt='image_locations'/>
+        <img src={require(`../img/budapest/${props.image}.jpg`).default} alt='image_locations'/>
           <div>
-              <h3>{props.title}</h3>
+              <h3>{t(props.title)}</h3>
               <p>{props.hashtags.split(' ').map(tag => {
                 return (
-                  " #" + tag
+                  " #" + t(tag)
                 )
               })}</p>
           </div>
       </div>
-      {showPopup?<div className='popup-shader' onClick={() => setShowPopup(false)}></div>:null}
-      <button onClick={() => setShowPopup(true) + stopBodyScroll()}>More</button>
+      {showPopup?<div className='popup-shader' onClick={() => setShowPopup(false) + unstopBodyScroll()}></div>:null}
+      <button onClick={() => setShowPopup(true) + stopBodyScroll()}>{t("more")}</button>
       {
           showPopup?
       <div className='locations-popups'>
@@ -37,11 +39,11 @@ function Locations(props) {
         </div>
         <p>{props.hashtags.split(' ').map(tag => {
                 return (
-                  " #" + tag
+                  " #" + t(tag)
                 )
               })}</p>
         {isBestOf ?<div className='bestof'>{props.bestof}</div>:null}
-        <img src={props.image} alt='image_locations'/>
+        <img src={require(`../img/budapest/${props.image}.jpg`).default} alt='image_locations'/>
         <p>{props.textarea}</p>
         <iframe 
           title={props.title} 

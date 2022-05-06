@@ -1,0 +1,17 @@
+.panel-map {
+  margin-bottom: 20px;
+}
+.remote-controll {
+  height: 300px !important;
+  width: auto !important;
+}
+.aircondition-rule {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.aircondition-rule img {
+  width: calc(100vw / 3 - 20px);
+  max-width: 130px;
+}

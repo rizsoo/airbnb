@@ -1,6 +1,5 @@
 import React from 'react'
 import './WashingmachineGuide.css'
-import Header from '../../../Header'
 import HeaderTitle from '../../../HeaderTitle'
 
 import step1 from '../../../img/washing/washing_1.png'
@@ -18,7 +17,6 @@ const WashingmachineGuide = () => {
   const { t } = useTranslation();
   return (
     <div>
-        <Header />
         <div className='content'>
         <HeaderTitle title={t("washing_guide_title")} />
         <Cafecomponent 
@@ -51,7 +49,9 @@ const WashingmachineGuide = () => {
           desc={t("washing_step6_desc")}
           image={step6}
         />
-        <p>*WARNING! In case you put only a few clothes inside, the machine will not dry them, mostly if it is something heavy like one or two towels.</p>
+        <div className='text-content'>
+          <p>{t("washing_warning")}</p>
+        </div>
         </div>
     </div>
   )

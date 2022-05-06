@@ -44,11 +44,11 @@ function LanguageSelector() {
             name: 'Deutschland',
             country_code: 'de'
         },
-        {
-            code: ru,
-            name: 'Russia',
-            country_code: 'ru'
-        },
+        // {
+        //     code: ru,
+        //     name: 'Russia',
+        //     country_code: 'ru'
+        // },
     ]
     
     let lang = i18next.language;
@@ -82,7 +82,7 @@ function LanguageSelector() {
                 <img src={code} alt='' key={code} onClick={() => { setIsOpen(true); i18next.changeLanguage(country_code)}}></img>
                 ))}
             </div>
-            <img src={lang ? isEnglishLang() : en} alt="" onClick={() => { setIsOpen(!isOpen) }}></img>
+            <img src={lang ? isEnglishLang() : en} alt="" onClick={() => { setIsOpen(!isOpen); isEnglishLang() }}></img>
         </div>
     </div>
   )};

@@ -1,6 +1,5 @@
 import React from 'react'
 import './AirconditionGuide.css'
-import Header from '../../../Header'
 import HeaderTitle from '../../../HeaderTitle'
 
 import air_1 from '../../../img/aircondition/air_rule_1.png'
@@ -16,20 +15,27 @@ const AirconditionGuide = () => {
   const { t } = useTranslation();
   return (
     <div>
-        <Header />
         <HeaderTitle title={t("air_guide")} />
         <div className='text-content'>
           <p>There are two air conditioning units in this apartment. Both can be set with both of the controllers.</p>
+          <center><img className='panel-map' src={air_remote_display} alt="" /></center>
           <p><b>Both have the ability to cool down or warm up the flat.</b></p>
           <p>Rules:</p>
-          <div style={{display: "flex", gap: "15px", margin: "15px 0"}}>
-            <center><img src={air_1} alt="" style={{width: "180px"}}/></center>
-            <center><img src={air_2} alt="" style={{width: "180px"}}/></center>
-            <center><img src={air_3} alt="" style={{width: "180px"}}/></center>
+          <div>
+            <div className='aircondition-rule'>
+              <img src={air_1} alt="" />
+              <h4>Close all windows when using airconditions!</h4>
+            </div>
+            <div className='aircondition-rule'>
+              <img src={air_2} alt="" />
+              <h4>Turn off airconditioning when checking out!</h4>
+            </div>
+            <div className='aircondition-rule'>
+              <img src={air_3} alt="" />
+              <h4>Please, avoid big temperature changes!</h4>
+            </div>
           </div>
-          <center><img src={air_remote} alt="" /></center>
-          <center><img src={air_remote_display} alt="" /></center>
-          <p><i>Control panel map</i></p>
+          <center><img className='remote-controll' src={air_remote} alt="" /></center>    
         </div>
     </div>
   )

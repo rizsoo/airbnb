@@ -22,18 +22,17 @@ li {
   padding: 0 15px;
 }
 
-.header-content h1 {
+.header-content img {
   margin: 0;
+  width: 60%;
 }
-@media (max-width: 400px) {
-  .header-content h1 {
-    font-size: 35px;
-  }
-}
+
 .header-content ion-icon {
   color: white;
-  font-size: 40px;
+  font-size: 45px;
   cursor: pointer;
+  width: 100px;
+  text-align: right;
 }
 
 .navbar {
@@ -64,4 +63,25 @@ li {
 .arrow {
   transform: rotate(-90deg);
   color: black !important;
+}
+.footer {
+  background-color: rgb(204, 204, 204);
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+.footer ion-icon {
+  transform: translateY(1.7px);
+}
+.footer b {
+  text-decoration: underline;
+}
+
+@media (max-width: 415px) {
+  .header-content img {
+    width: 80%;
+  }
+  .header-content ion-icon {
+    width: 190px;
+  }
 }

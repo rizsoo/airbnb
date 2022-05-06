@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+.fortyfour {
+  margin: 30px auto;
+  text-align: center;
+}
+.menu-list-app {
+  margin-bottom: 20px;
+}

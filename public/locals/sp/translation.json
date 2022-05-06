@@ -1,35 +1,175 @@
 {
     "covid_situation": "Restricciones actuales de COVID en Hungría",
-
-    "apartment": "Departamento",
-    "read": "Leer",
-
-    "address_of_apartment": "Dirección del apartamento",
-    "phone_number": "Número de teléfono",
-    "wifi_password": "Contraseña de wifi",
-    "entrance_code": "Código de entrada",
-    "emergency_services": "Servicios de emergencia",
-    "emergency_services_description": "En caso de emergencia llamar al: 112",
-
-
-    "contact": "Contacto",
-    "contact_description": "Números de teléfono, contraseñas, dirección...",
-
-    "how_to_use": "¿Cómo utilizar?",
-    "how_to_use_description": "Guías de máquinas, como lavadora o aire acondicionado.",
-
-    "checking_out": "El registro de salida",
-    "checking_out_description": "Siga estos pasos cuando se vaya.",
-
-    "parking": "Estacionamiento",
-    "parking_description": "Información básica en caso de que hayas viajado en coche.",
-
-
     
-    "food_culture": "Comida y Cultura",
-    "food_culture_description": "Busque entre restaurantes, bares, tiendas o lugares de interés de la ciudad.",
-
-    "transportation": "Transporte",
-    "transportation_description": "Transporte público y formas alternativas de moverse."
-
-}
+    "apartment":  "Departamento",
+    "read":  "Leer",
+    "blackberries":  "Más",
+    
+    "address_of_apartment":  "Dirección del apartamento",
+    "phone_number":  "Mi número de teléfono",
+    "wifi_password":  "Contraseña de wifi",
+    "entrance_code":  "Código de entrada",
+    "emergency_services":  "Servicios de emergencia",
+    "emergency_services_description":  "En caso de emergencia llamar: 112",
+    "hidden-info-show":  "Show",
+    
+    "apartment-history":  "Historia del apartamento",
+    "apartment-history_description":  "Lea sobre el lugar (solo en inglés)",
+    
+    "contact":  "Contacto",
+    "contact_description":  "Números de teléfono, contraseñas, dirección...",
+    
+    "how_to_use":  "¿Cómo utilizar?",
+    "how_to_use_description":  "Guías de máquina, como lavadora o aire acondicionado.",
+    
+    "checking_out":  "El registro de salida",
+    "checking_out_description":  "Sigue estos pasos cuando te vayas.",
+    "checking_out_step1":  "Apaga todas las luces y dispositivos eléctricos.",
+    "checking_out_step2":  "Apagar el sistema de calefacción (poner los radiadores a cero).",
+    "checking_out_step3":  "Cierra las ventanas.",
+    "checking_out_step4":  "Cierra y bloquea todas las puertas de entrada.",
+    "checking_out_step5":  "Devuelve las llaves a la caja fuerte de llaves.",
+    
+    "parking":  "Estacionamiento",
+    "parking_description":  "Información básica en caso de haber viajado en coche.",
+    
+    "food_culture":  "Cultura de la comida",
+    "food_culture_description":  "Busca entre restaurantes, bares, tiendas o lugares de interés de la ciudad.",
+    
+    "Fisherman's bastion":  "Bastión de los pescadores",
+    "St. Stephen's Basilica":  "Basílica de San Esteban",
+    "Parlament":  "Parlamento",
+    "Citadel":  "Ciudadela",
+    "Elizabeth Lookout Tower":  "Torre de vigilancia Isabel",
+    "Zugliget Chairlift":  "Tesilla Zugliget",
+    "Heroes Square":  "Plaza de los Héroes",
+    "Morrisons 2 club":  "El club de Morrison 2",
+    "Vakvarjú Restaurant":  "Restaurante Vakvarjú",
+    "Great Market Hall":  "Gran Mercado",
+    "Synagogue":  "Sinagoga",
+    "Mazel Tov - Bar & Restaurant":  "Mazel Tov - Bar & Restaurante",
+    "Margharet island":  "Isla Margarita",
+    "Szimpla Kert bar":  "Barra Szimpla Kert",
+    "Szechenyi Spa":  "Balneario Széchenyi",
+    "House of Terror":  "Casa del Terror",
+    "Buda Castle":  "Castillo de Buda",
+    "Gozsdu yard":  "Patio Gozsdu",
+    "Kőleves Garden - Bar & Restaurant":  "Kőleves Garden - Bar & Restaurante",
+    "Gellért Thermal bath":  "Baño Termal Gellért",
+    "Aquaworld Resort":  "Resort Aquaworld",
+    "Pándzsáb Tandori Indian Restaurant":  "Restaurante Indio Pándzsáb Tandori",
+    "Szeráj Turkish Restaurant":  "Restaurante turco Szeráj",
+    "speaks Vígszínház theaterment":  "Teatro Vígszínház",
+    "Budapest Jazz Club":  "Club de Jazz de Budapest",
+    "Oriental Soup House restaurant":  "Restaurante Casa de Sopas Orientales",
+    "Mosselen Belgian Bar & Restaurant":  "Mosselen Belga Bar & Restaurante",
+    "Stika Restaurant":  "Restaurante Stika",
+    "D'al Michele Italian Restaurant":  "Restaurante italiano D'al Michele",
+    "City Park Ice Rin":  "Parque de la Ciudad Rincón de Hielo",
+    "Budapest Zoo and Botanical Garden":  "Zoológico y Jardín Botánico de Budapest",
+    "Váci Street":  "Calle Vaci",
+    "Cyberjump trampoline park":  "Parque de trampolines Cyberjump",
+    
+    "cultures":  "cultura",
+    "panorama":  "panorama",
+    "sightseeing":  "pasear",
+    "activities":  "actividades",
+    "nightlife":  "la vida nocturna",
+    "bar":  "bar",
+    "food":  "alimento",
+    "shopping":  "compras",
+    "spa":  "spa",
+    "museum":  "museo",
+    "nearby":  "cercano",
+    "bestof":  "mejor de",
+    "theater":  "teatro",
+    "breakfast":  "desayuno",
+    
+    "transportation":  "Transporte",
+    "transportation_description":  "Transporte público y formas alternativas de moverse.",
+    
+    "public_transport":  "Transporte público",
+    "taxi_services":  "Servicios de taxi",
+    "car_sharing":  "Auto compartido",
+    "two_wheel_share":  "Dos ruedas compartidas",
+    
+    "tv_guide":  "Guía de televisión",
+    "cafe_guide":  "Guía de cafeterías",
+    "boiler_guide":  "Guía de calderas",
+    "washing_guide":  "Lavadora",
+    "washing_guide_title":  "Guía de lavadoras",
+    "stove_guide":  "Guía de estufas",
+    "air_guide":  "Aire acondicionado",
+    
+    "step_1":  "Paso 1.",
+    "step_2":  "Paso 2.",
+    "step_3":  "Paso 3.",
+    "step_4":  "Paso 4.",
+    "step_5":  "Paso 5.",
+    "step_6":  "Paso 6.",
+    "step_7":  "Paso 7.",
+    
+    "no_connection":  "¿Sin conexión?",
+    "no_connection_desc":  "A veces, el televisor pierde su conexión a Internet. En este caso, simplemente reinicie Internet en la configuración del televisor o desconéctelo y en la toma de corriente del televisor",
+    "no_connection_desc_2":  "*Hay aplicaciones de Internet, pero no hay televisión por cable en este dispositivo",
+    
+    "honesty_box":  "Sistema de caja de honestidad",
+    "honesty_box_desc":  "Al usar cápsulas de la caja contenedora, puedes optar por dar dinero por ella. No hay un precio fijo, puedes enviar tanto como valores tu consumo",
+    "click_here":  "¡Haz clic aquí para enviar dinero!",
+    "cafe_step_1":  "Llene el recipiente de agua con agua purificada y vuelva a colocarlo correctamente.",
+    "cafe_step_2":  "Presiona cualquiera de los botones en la parte superior y espera hasta que los botones dejen de parpadear.",
+    "cafe_step_3":  "Cuando la máquina esté lista, puede colocar la cápsula y luego cerrar la palanca",
+    "cafe_step_4":  "Coloca una taza debajo.",
+    "cafe_step_5":  "Elige tu estilo y presiona uno de los botones.",
+    
+    "boiler_desc_1":  "La caldera de agua se puede encontrar en la pared, en el pequeño cuarto de lavado al lado del baño.",
+    "boiler_desc_2":  "En caso de que se quede sin agua caliente, debe presionar el botón 'MÁS' para aumentar la capacidad de calefacción",
+    "boiler_desc_3":  "Normalmente lo dejo en 'ECO'.",
+    
+    "washing_step1_desc":  "Cargue la máquina con ropa y cierre la puerta.",
+    "washing_step2_desc":  "¡Llénalo con el detergente líquido!",
+    "washing_step3_desc":  "Presiona el boton de poder.",
+    "washing_step4_desc":  "Elige el programa que te gustaría.",
+    "washing_step5_desc":  "Elige la temperatura y la velocidad presionando 'Spin' y 'Temp.' en la pantalla negra.",
+    "washing_step6_desc":  "Presione el botón 'Iniciar/Detener'.",
+    "washing_warning":  "*¡ADVERTENCIA! En caso de que coloques solo unas cuantas prendas dentro, la máquina no las secará, sobre todo si se trata de algo pesado como una o dos toallas.",
+    
+    "stove_desc_1":  "Puedes usar cualquier sartén que encuentres en la cocina. También funciona con la cafetera chisporroteante",
+    "stove_desc_2":  "No funcionará a menos que le pongas una sartén",
+    "stove_desc_3":  "Pasos para usar",
+    "stove_step_1":  "1. Presione el botón 'Encendido' hasta que escuche un pitido",
+    "stove_step_2":  "2. Pon una sartén en cualquier lugar de la estufa",
+    "stove_step_3":  "3. Elija la estufa presionando el botón 'Inferior' o 'Superior'.",
+    "stove_step_4":  "4. Luego presione el botón 'Más' para elegir el nivel de calor",
+    "stove_desc_4":  "Botones",
+    
+    "airc_desc_1":  "Hay dos unidades de aire acondicionado en este apartamento. Ambas se pueden configurar con los dos controladores",
+    "airc_desc_2":  "Ambos tienen la capacidad de enfriar o calentar el piso",
+    "airc_desc_3":  "Normas",
+    
+    "day_word":  "día",
+    
+    "parking_desc_1":  "Estacionamiento en vía pública",
+    "parking_desc_2":  "Si has llegado en coche a Budapest, aquí tienes algunas opciones donde dejar tu coche",
+    "parking_desc_3":  "En primer lugar, el ESTACIONAMIENTO PÚBLICO EN LA CALLE NO es gratuito y tiene limitaciones de tiempo. En el área cercana del apartamento, el estacionamiento cuesta 450 florines por hora. Además, debe renovar el boleto cada dos horas",
+    "parking_desc_4":  "Pero, el estacionamiento es gratuito los fines de semana en la vía pública",
+    "parking_desc_5":  "Solución GRATIS",
+    "parking_desc_6":  "El punto más cercano donde no tienes que pagar en la calle está a unos 15 minutos en autobús. (autobús 91 y 291)",
+    "parking_desc_7":  "La zona de estacionamiento es roja, donde no se ve ningún color, ahí es gratis. Le sugiero que busque un lugar cerca de la plaza Vérhalom y use los autobuses numerados 91 o 291 para regresar al apartamento",
+    "parking_desc_8":  "Dirección precisa",
+    "parking_desc_9":  "solución PAGADA",
+    "parking_desc_10":  "Hay tres parkings cerca donde puedes dejar tu coche. (precio por día)",
+    "parking_desc_11":  "A 160 m dall'appartamento. Facile entrare e uscire.",
+    "parking_desc_12":  "70 m di distanza. Tengono le chiavi della macchina.",
+    "parking_desc_13":  "1 km di distanza. 15 minuti a piedi, ma molto economico.",
+    
+    "public_transport_tr_desc_1":  "Suggerimento per professionisti",
+    "public_transport_tr_desc_2":  "Ora puoi acquistare i biglietti tramite l'app BudapestGO.",
+    "public_transport_tr_desc_3":  "Clicca qui per scaricare l'app BudapestGO",
+    "public_transport_tr_desc_4":  "L'indirizzo dell'appartamento è",
+    "public_transport_taxi_desc_1":  "Per i taxi ti consiglio di usare l'app Bolt. Funziona allo stesso modo di Uber, ma dato che non abbiamo Uber a Budapest puoi usare Bolt.",
+    "public_transport_car_desc_1":  "Ci sono diverse app di car sharing qui a Budapest.",
+    "public_transport_bike_desc_1":  "Ci sono diverse app per la condivisione di biciclette e rulli tra cui puoi scegliere."
+    
+    }
+    

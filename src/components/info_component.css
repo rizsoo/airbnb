@@ -2,35 +2,38 @@
   width: calc(100vw - 30px);
   max-width: 600px;
   height: auto;
-  min-height: 85px;
-
-  padding: 10px;
+  padding: 20px 10px;
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 15px;
 
-  display: flex;
-  align-items: center;
-
   margin-right: auto;
   margin-left: auto;
-
   margin: 13px auto;
-}
-.piece-textarea {
-  height: 100%;
+
+  overflow: hidden;
 
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+.piece-content-left {
+  display: flex;
+  align-items: center;
+}
+.piece-textarea {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+
 }
 .piece-textarea h4 {
-  font-size: 23px;
+  font-size: 26px;
   font-weight: bold;
   margin: 0;
 }
 .piece-textarea p {
-  font-size: 16px;
   font-weight: bold;
   margin: 0;
   color: #1996c3;
@@ -39,4 +42,17 @@
   height: 75px;
   width: auto;
   margin-right: 5px;
+}
+.piece-content ion-icon {
+  margin-left: 7px;
+  transform: translateY(1.5px);
+  --ionicon-stroke-width: 46px;
+}
+@media (max-width: 450px) {
+  .piece-textarea h4 {
+    font-size: 23px;
+  }
+  .piece-content img {
+    height: 50px;
+  }
 }
